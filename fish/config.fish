@@ -1,7 +1,9 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 # --- Greeting ---
-set -g fish_greeting ""
+# Override CachyOS greeting to prevent automatic Fastfetch
+function fish_greeting
+end
 
 # --- Environment ---
 set -gx EDITOR nvim
