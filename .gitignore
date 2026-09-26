@@ -1,0 +1,6 @@
+*.save
+*.backup
+*.bak
+*.swp
+*~
+.DS_Store

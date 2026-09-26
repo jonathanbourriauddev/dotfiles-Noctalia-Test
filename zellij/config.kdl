@@ -1,0 +1,16 @@
+// Zellij V1 — workstation tech/dev
+
+default_shell "fish"
+
+// Fermer Kitty ne tue pas automatiquement la session Zellij
+on_force_close "detach"
+
+// UI sobre
+pane_frames true
+pane_frame_style "titles"
+
+// Conserver une souris fonctionnelle dans Zellij
+mouse_mode true
+
+// Clipboard système
+copy_clipboard "system"
